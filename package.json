@@ -1,0 +1,10 @@
+{
+  "name": "twigjs-macro",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "twig": "^0.8.1"
+  }
+}

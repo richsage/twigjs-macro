@@ -1,0 +1,10 @@
+{% macro foo(greeting) %}
+  {{ greeting }}, world
+{% endmacro %}
+
+{% import _self as self %}
+
+<h1>Macro test</h1>
+
+{{ self.foo("Hello") }}
+
